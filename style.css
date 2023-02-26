@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif; 
+  margin:0
+}
+img{
+  vertical-align: middle;
+  max-width: 800px;
+  max-height: 600px;
+}
+.mySlides {
+  display: nonegii
+}
+
+.slider-container{
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: white;
+}
+.next {
+  right: 0;  
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
